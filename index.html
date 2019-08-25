@@ -16,9 +16,9 @@
     <nav>
         <div class="nav-wrapper">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
+            <ul class="right hide-on-med-and-down container">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#ecode">Encode</a></li>
+                <li><a href="#encode">Encode</a></li>
                 <li><a href="#decode">Decode</a></li>
             </ul>
         </div>
@@ -26,7 +26,7 @@
 
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#home">Home</a></li>
-        <li><a href="#ecode">Encode</a></li>
+        <li><a href="#encode">Encode</a></li>
         <li><a href="#decode">Decode</a></li>
     </ul>
 
@@ -59,19 +59,19 @@
         </article>
     </section>
     <section id="encode" class="page container">
-        <article class=" section col s12 m12 l12">
+        <article class=" encode section col s12 m12 l12">
             <textarea name="" id="input_text" cols="30" rows="10"></textarea>
             <input type="number" id="offset">
-            <button id='encode'>CIFRAR</button>
+            <button id='encode' class="btn">CIFRAR</button>
             <textarea name="" id="output_text" cols="30" rows="10"></textarea>
         </article>
 
     </section>
     <section id="decode" class="page container">
-        <article class=" section col s12 m12 l12">
+        <article class=" decode section col s12 m12 l12">
             <textarea name="" id="input_text" cols="30" rows="10"></textarea>
             <input type="number" id="offset">
-            <button id='decode'>DESCIFRAR</button>
+            <button id='decode' class="btn">DESCIFRAR</button>
             <textarea name="" id="output_text" cols="30" rows="10"></textarea>
         </article>
     </section>
