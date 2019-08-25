@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -9,29 +10,30 @@
     <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css" />
     <title>Cipher x DDHH</title>
-  </head>
-  <body     >
-        <nav>
-                <div class="nav-wrapper">
-                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                  <ul class="right hide-on-med-and-down">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#ecode">Encode</a></li>
-                    <li><a href="#decode">Decode</a></li>
-                  </ul>
-                </div>
-              </nav>
-            
-              <ul class="sidenav" id="mobile-demo">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#ecode">Encode</a></li>
                 <li><a href="#decode">Decode</a></li>
-              </ul>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#ecode">Encode</a></li>
+        <li><a href="#decode">Decode</a></li>
+    </ul>
 
     <section id="home" class="page active container">
-            <div>
-                    <h2>INSTRUCCIONES</h2>
-            </div>
+        <div>
+            <h2>INSTRUCCIONES</h2>
+        </div>
 
         <article id='instructions'>
 
@@ -39,7 +41,8 @@
                 <h4>PARA CIFRAR</h4>
                 <ul>
                     <li>Coloca el mensaje a cifrar en el primer recuadro. </li>
-                    <li> Selecciona el nivel de cifrado que quieres. El nivel que decidas será la llave. Ahora selecciona "Cifrar".</li>
+                    <li> Selecciona el nivel de cifrado que quieres. El nivel que decidas será la llave. Ahora
+                        selecciona "Cifrar".</li>
                     <li>Copia, pega el mensaje y envía a tus destinatarios</li>
                 </ul>
                 <h5>OJO: No olvides enviarles tu número de llave.</h5>
@@ -47,33 +50,35 @@
             <div class="instructions">
                 <h4>PARA DESCIFRAR</h4>
                 <ul>
-                        <li>Pega el mensaje en el recuadro. </li>
-                        <li> Coloca el número de cifrado, que es el mismo número que tu remitente te dio como "llave"; de lo contrario jamás podrás saber lo que te quieren decir.</li>
-                        <li>Da click en el botón de "Descifrar" y ¡voilà!. </li>
-                </div>
+                    <li>Pega el mensaje en el recuadro. </li>
+                    <li> Coloca el número de cifrado, que es el mismo número que tu remitente te dio como "llave"; de lo
+                        contrario jamás podrás saber lo que te quieren decir.</li>
+                    <li>Da click en el botón de "Descifrar" y ¡voilà!. </li>
+            </div>
             </div>
         </article>
     </section>
     <section id="encode" class="page container">
         <article class=" section col s12 m12 l12">
-                <textarea name="" id="input_text" cols="30" rows="10"></textarea>
-                <input type="number" id= "offset">
-                <button id='encode'>CIFRAR</button>
-                <textarea name="" id="output_text" cols="30" rows="10"></textarea>
+            <textarea name="" id="input_text" cols="30" rows="10"></textarea>
+            <input type="number" id="offset">
+            <button id='encode'>CIFRAR</button>
+            <textarea name="" id="output_text" cols="30" rows="10"></textarea>
         </article>
 
     </section>
     <section id="decode" class="page container">
-            <article class=" section col s12 m12 l12">
-                    <textarea name="" id="input_text" cols="30" rows="10"></textarea>
-                    <input type="number" id= "offset">
-                    <button id='decode'>DESCIFRAR</button>
-                    <textarea name="" id="output_text" cols="30" rows="10"></textarea>
-            </article>
-        </section>
+        <article class=" section col s12 m12 l12">
+            <textarea name="" id="input_text" cols="30" rows="10"></textarea>
+            <input type="number" id="offset">
+            <button id='decode'>DESCIFRAR</button>
+            <textarea name="" id="output_text" cols="30" rows="10"></textarea>
+        </article>
+    </section>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="main.js"></script>
-     <script src="index.js"></script>
-  </body>
+    <script src="index.js"></script>
+</body>
+
 </html>
