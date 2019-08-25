@@ -18,6 +18,7 @@ section{
 }
 button{
     margin: 3%;
+    background-color: black !important;
 }
 textarea{
     height: 12rem;
